@@ -31,7 +31,7 @@ export class App extends Component {
       <Container>
         <Section title="Please leave feedback">
           <FeedbackOptions 
-            options = {[ "Good", "Neutral", "Bed" ]}
+            options = {[ 'good', 'neutral', 'bad' ]}
             onLeaveFeedback = {this.onLeaveFeedback}  
           />
         </Section>
